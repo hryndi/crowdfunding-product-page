@@ -11,7 +11,7 @@ ul > li {
 }
 
 ul li:nth-child(2) {
-  @apply border-t max-sm:border-y  border-gray-500/35 z-40;
+  @apply max-sm:border-y border-gray-500/35 z-40;
 }
 
 .numbers-board div {
