@@ -9,15 +9,10 @@ p {
 ul > li {
   @apply px-3 py-3  hover:scale-110 font-semibold transition-all duration-300 max-sm:hover:bg-gray-100 max-sm:pl-6 relative z-30;
 }
-/* ul li:nth-child(1) {
-  @apply pb-0;
-} */
+
 ul li:nth-child(2) {
   @apply border-t border-b border-gray-500/35 z-40;
 }
-/* ul li:nth-child(3) {
-  @apply pt-0;
-} */
 
 .numbers-board div {
   @apply flex flex-col max-sm:items-center flex-1;
